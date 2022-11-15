@@ -8,6 +8,8 @@ import { HijococheComponent } from './components/hijocoche/hijocoche.component';
 import { PadrecochesComponent } from './components/padrecoches/padrecoches.component';
 import { PadredeportesComponent } from './components/padredeportes/padredeportes.component';
 import { HijodeporteComponent } from './components/hijodeporte/hijodeporte.component';
+import { PadrecomicComponent } from './components/padrecomic/padrecomic.component';
+import { HijocomicsComponent } from './components/hijocomics/hijocomics.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { HijodeporteComponent } from './components/hijodeporte/hijodeporte.compo
     HijococheComponent,
     PadrecochesComponent,
     PadredeportesComponent,
-    HijodeporteComponent
+    HijodeporteComponent,
+    PadrecomicComponent,
+    HijocomicsComponent
   ],
   imports: [
     BrowserModule,
