@@ -1,0 +1,7 @@
+<div>
+    <h2>Padre</h2>
+    <h2>{{mensaje}}</h2>
+    <div *ngFor="let deporte of deportes">
+        <app-hijodeporte [sport]="deporte" (seleccionarDeporte)="seleccionarDeportePadre($event)"></app-hijodeporte>
+    </div>
+</div>
