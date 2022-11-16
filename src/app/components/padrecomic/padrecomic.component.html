@@ -1,4 +1,9 @@
-<h1>{{favorito}}</h1>
+<div *ngIf="favorito != null">
+    <h1 style="background-color:yellow;">{{favorito.titulo}}</h1>
+    <img style="background-color: yellow;" src="{{favorito.imagen}}" />
+    <h2 style="background-color: yellow;">{{favorito.descripcion}}</h2>
+</div>
+
 
 <h1>librerias</h1>
 <label>Titulo</label><br />
